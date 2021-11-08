@@ -104,15 +104,15 @@ async def bot_start(event):
             )
         else:
             start_msg = f"Hey! 👤{mention},\
-                        \nI am {my_mention}'s assistant bot.\
-                        \nYou can contact to my master from here.\
-                        \n\nPowered by [Catuserbot](https://t.me/catuserbot)"
+                        \nI am {my_mention}'s assistant bot അനു 😎.\
+                        \nYou can contact to my മാസ്റ്റർ here😎.\
+                        \n\nFather my [Father](https://t.me/A6rzuxpt69drdr6t9d5)"
         buttons = [
             (
-                Button.url("Repo", "https://github.com/sandy1709/catuserbot"),
+                Button.url("മൈ മാസ്റ്റർ 😎", "https://t.me/A6rzuxpt69drdr6t9d5"),
                 Button.url(
-                    "Deploy",
-                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack&template=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack",
+                    "𝑀𝑦 𝑓𝑎𝑡ℎ𝑒𝑟",
+                    "https://t.me/noughtyland",
                 ),
             )
         ]
